@@ -1,5 +1,5 @@
-var c = document.getElementById('Canvas');
-var $ = Canvas.getContext('2d');
+var c = document.getElementById('ColorCanvas');
+var $ = ColorCanvas.getContext('2d');
 var col = function(x, y, r, g, b) {
   $.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
   $.fillRect(x, y, 1,1);
