@@ -1,5 +1,5 @@
 var c = document.getElementById('background');
-var $ = CanvasSouls.getContext('2d');
+var $ = background.getContext('2d');
 var col = function(x, y, r, g, b) {
   $.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
   $.fillRect(x, y, 1,1);
