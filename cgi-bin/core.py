@@ -23,7 +23,7 @@ print("""<!DOCTYPE HTML>
 		</head>
 		<body>
 		<script language="JavaScript" type="text/javascript">
-			window.location = "http://localhost:8000/"
+			window.location = "http://0b10101.github.io"
 		</script>
 		</body>
 		</html>""")
