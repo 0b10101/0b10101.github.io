@@ -1,4 +1,3 @@
-<script type="text/javascript">
   var c = document.getElementById('ColorCanvas');
   var $ = ColorCanvas.getContext('2d');
   var col = function(x, y, r, g, b) {
@@ -25,4 +24,3 @@
     window.requestAnimationFrame(run);
   }
   run();
-</script>
